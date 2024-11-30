@@ -41,5 +41,13 @@ public class Main {
         }
         double average = (double) sum / expenses2.length;
         System.out.println(" Средняя сумма трат за месяц составила " + average + " рублей");
+
+        // task4
+        System.out.println("Task 4");
+        char[] reverseFullNane = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+
+        for (int i =reverseFullNane.length; i > 0; i--) {
+            System.out.print(reverseFullNane[i - 1]);
+        }
     }
 }
