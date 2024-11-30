@@ -34,7 +34,7 @@ public class Main {
 
         // task3
         System.out.println("Task 3");
-        int[] expenses2 = new int [] {10, 25, 36, 47, 55};
+        int[] expenses2 = new int[]{10, 25, 36, 47, 55};
         int sum = 0;
         for (int i = 0; i < expenses2.length; i++) {
             sum += expenses2[i];
@@ -46,7 +46,7 @@ public class Main {
         System.out.println("Task 4");
         char[] reverseFullNane = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
 
-        for (int i =reverseFullNane.length; i > 0; i--) {
+        for (int i = reverseFullNane.length; i > 0; i--) {
             System.out.print(reverseFullNane[i - 1]);
         }
     }
